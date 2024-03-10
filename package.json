@@ -1,0 +1,21 @@
+{
+  "name": "Current_Time_Provider",
+  "version": "1.0.0",
+  "description": "Provides current time data.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node appTester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NYX1122/Current_Time_Provider"
+  },
+  "author": "BoDee Angus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYX1122/Current_Time_Provider/issues"
+  },
+  "homepage": "https://github.com/NYX1122/Current_Time_Provider#readme",
+  "dependencies": {}
+}
