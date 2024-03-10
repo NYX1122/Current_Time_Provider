@@ -4,17 +4,17 @@ export default async function () {
     const year = now.getFullYear();
     const month = now.getMonth() + 1;
     const day = now.getDate();
-    const hours = now.getHours();
-    const minutes = now.getMinutes();
-    const seconds = now.getSeconds();
+    const hour = now.getHours();
+    const minute = now.getMinutes();
+    const second = now.getSeconds();
 
     const timeData = {
       year,
       month,
       day,
-      hours,
-      minutes,
-      seconds,
+      hour,
+      minute,
+      second,
     };
 
     console.log('Current_Time_Provider has successfully returned time data:');
